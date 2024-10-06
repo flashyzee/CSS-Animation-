@@ -1,0 +1,17 @@
+@keyframes slide {
+    0% { left: 0%; }
+    100% { left: 100%; }
+}
+
+.sliding_heart {
+    position: absolute; 
+    width: 100px; 
+    height: 100px; 
+    top: 50%; 
+    background-image: url(heart.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    animation-duration: 3s;
+    animation-name: slide;
+    animation-iteration-count: infinite;
+}
