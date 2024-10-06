@@ -3,12 +3,12 @@
     100% { left: 100%; }
 }
 
-.sliding_heart {
+.sliding_purdue {
     position: absolute; 
     width: 100px; 
     height: 100px; 
     top: 50%; 
-    background-image: url(heart.png);
+    background-image: url(purdue.png);
     background-size: contain;
     background-repeat: no-repeat;
     animation-duration: 3s;
